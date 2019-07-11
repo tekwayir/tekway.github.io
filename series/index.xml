@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Series on تک‌وی</title>
+    <link>https://tekway.ir/series/</link>
+    <description>Recent content in Series on تک‌وی</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fa-Hans</language>
+    <lastBuildDate>Tue, 30 Jan 2018 15:04:48 +0800</lastBuildDate>
+    
+	<atom:link href="https://tekway.ir/series/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>سری تجربیات</title>
+      <link>https://tekway.ir/series/%D8%B3%D8%B1%DB%8C-%D8%AA%D8%AC%D8%B1%D8%A8%DB%8C%D8%A7%D8%AA/</link>
+      <pubDate>Tue, 30 Jan 2018 15:04:48 +0800</pubDate>
+      
+      <guid>https://tekway.ir/series/%D8%B3%D8%B1%DB%8C-%D8%AA%D8%AC%D8%B1%D8%A8%DB%8C%D8%A7%D8%AA/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

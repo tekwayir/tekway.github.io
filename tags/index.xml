@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on تک‌وی</title>
+    <link>https://tekway.ir/tags/</link>
+    <description>Recent content in Tags on تک‌وی</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fa-Hans</language>
+    <lastBuildDate>Tue, 30 Jan 2018 15:04:48 +0800</lastBuildDate>
+    
+	<atom:link href="https://tekway.ir/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>برچسب اول</title>
+      <link>https://tekway.ir/tags/%D8%A8%D8%B1%DA%86%D8%B3%D8%A8-%D8%A7%D9%88%D9%84/</link>
+      <pubDate>Tue, 30 Jan 2018 15:04:48 +0800</pubDate>
+      
+      <guid>https://tekway.ir/tags/%D8%A8%D8%B1%DA%86%D8%B3%D8%A8-%D8%A7%D9%88%D9%84/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>تجربه</title>
+      <link>https://tekway.ir/tags/%D8%AA%D8%AC%D8%B1%D8%A8%D9%87/</link>
+      <pubDate>Tue, 30 Jan 2018 15:04:48 +0800</pubDate>
+      
+      <guid>https://tekway.ir/tags/%D8%AA%D8%AC%D8%B1%D8%A8%D9%87/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

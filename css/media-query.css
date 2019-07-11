@@ -1,0 +1,9 @@
+@media only screen and (max-width: 767px){
+    .text-in-mobile{
+        text-align: center !important;
+    }
+    .text-mobile-center{
+        text-align: center !important;
+        padding-left: 15px !important;
+    }
+}

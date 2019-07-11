@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>آموزش‌های تک‌وی on تک‌وی</title>
+    <link>https://tekway.ir/tutorials/</link>
+    <description>Recent content in آموزش‌های تک‌وی on تک‌وی</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fa-Hans</language>
+    <lastBuildDate>Mon, 10 Jun 2019 20:29:37 -0700</lastBuildDate>
+    
+	<atom:link href="https://tekway.ir/tutorials/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>آموزش آزمایشی</title>
+      <link>https://tekway.ir/tutorials/test/</link>
+      <pubDate>Tue, 11 Jun 2019 20:29:37 -0700</pubDate>
+      
+      <guid>https://tekway.ir/tutorials/test/</guid>
+      <description>&lt;p&gt;لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

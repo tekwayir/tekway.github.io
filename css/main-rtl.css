@@ -1,0 +1,39 @@
+
+@font-face {
+    font-family: "parastoo";
+    src: url('../fonts/Parastoo-FD.eot') format('embedded-opentype'),
+         url('../fonts/Parastoo-FD.woff') format('woff'),
+         url('../fonts/Parastoo-FD.woff2') format('woff2'),
+         url('../fonts/Parastoo-FD.ttf') format('truetype');
+    font-weight: normal;
+  }
+  body{
+    font-family: 'parastoo', serif !important;
+}
+h1,h2,h3,h4,h5,h6,p,a,b{
+    font-family: 'parastoo', serif !important;
+}
+
+.post-content{
+    text-align: justify !important;
+}
+h1{
+    direction: rtl !important;
+}
+
+.navbar, .headfont,.copyright{
+    direction: rtl !important;
+}
+
+.navbar, .headfont{
+    text-align: right !important;
+}
+
+.text-in-mobile{
+    text-align: left !important;
+}
+
+.post-main-wrapper{
+    direction: rtl !important;
+    text-align: right !important;
+}

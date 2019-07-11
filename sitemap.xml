@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://tekway.ir/categories/</loc>
+    <lastmod>2019-06-11T20:29:37-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://tekway.ir/categories/%D8%A2%D8%B2%D9%85%D8%A7%DB%8C%D8%B4%DB%8C/</loc>
+    <lastmod>2019-06-11T20:29:37-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://tekway.ir/tutorials/test/</loc>
+    <lastmod>2019-06-11T20:29:37-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tekway.ir/</loc>
+    <lastmod>2019-06-11T20:29:37-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://tekway.ir/tutorials/</loc>
+    <lastmod>2019-06-10T20:29:37-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tekway.ir/blog/</loc>
+    <lastmod>2018-09-13T22:31:21+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tekway.ir/about/</loc>
+    <lastmod>2018-09-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tekway.ir/series/</loc>
+    <lastmod>2018-01-30T15:04:48+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://tekway.ir/tags/</loc>
+    <lastmod>2018-01-30T15:04:48+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://tekway.ir/tags/%D8%A8%D8%B1%DA%86%D8%B3%D8%A8-%D8%A7%D9%88%D9%84/</loc>
+    <lastmod>2018-01-30T15:04:48+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://tekway.ir/tags/%D8%AA%D8%AC%D8%B1%D8%A8%D9%87/</loc>
+    <lastmod>2018-01-30T15:04:48+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://tekway.ir/blog/2018-01/%D8%AA%D8%AC%D8%B1%D8%A8%DB%8C%D8%A7%D8%AA%D9%85-%D8%AF%D8%B1%D8%A8%D8%A7%D8%B1%D9%87%DB%8C-%D9%81%D9%84%D8%A7%D9%86/</loc>
+    <lastmod>2018-01-30T15:04:48+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tekway.ir/categories/%D8%AF%D8%B3%D8%AA%D9%87%DB%8C-%D8%A7%D9%88%D9%84/</loc>
+    <lastmod>2018-01-30T15:04:48+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://tekway.ir/series/%D8%B3%D8%B1%DB%8C-%D8%AA%D8%AC%D8%B1%D8%A8%DB%8C%D8%A7%D8%AA/</loc>
+    <lastmod>2018-01-30T15:04:48+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+</urlset>
