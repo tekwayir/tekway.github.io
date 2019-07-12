@@ -6,4 +6,19 @@
         text-align: center !important;
         padding-left: 15px !important;
     }
+    .post-heading{
+        font-size: 20px;
+    }
+    .display-3{
+        font-size: 30px;
+    }
+    div.post-wrapper{
+        text-align: justify;
+    }
+    .post-main-wrapper{
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        padding-left: 0% !important;
+        padding-right: 0% !important;
+    }
 }

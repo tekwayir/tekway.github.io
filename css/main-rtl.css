@@ -20,8 +20,10 @@ h1,h2,h3,h4,h5,h6,p,a,b{
 h1{
     direction: rtl !important;
 }
-
-.navbar, .headfont,.copyright{
+._77e6489572d387e13a5108b5d61ffcdd\.css,._00a1bc3fa62f4a852a2373f946f5a98a\.css,._959b48642342de3ec364136e6d307ec8\.css,label.aad47099623914a20a5ec43013131800\.css, input,textarea{
+    text-align: right !important;
+}
+.navbar, .headfont,.copyright, input,textarea{
     direction: rtl !important;
 }
 
@@ -36,4 +38,9 @@ h1{
 .post-main-wrapper{
     direction: rtl !important;
     text-align: right !important;
+}
+
+label.aad47099623914a20a5ec43013131800\.css:nth-child(3) > input:nth-child(1),code{
+    direction: ltr !important;
+    text-align: left !important;
 }

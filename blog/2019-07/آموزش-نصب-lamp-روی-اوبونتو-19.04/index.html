@@ -7,23 +7,26 @@
   <meta name="MobileOptimized" content="320">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, maximum-scale=1" />
   <meta name="author" content="تک‌وی">
-  <meta name="description" content="[بیشتر برنامه نویسان خوب برنامه نویسی می کنند. نه به این علت که انتظار دارند دستمزد بگیرند یا از سوی عموم تحسین شوند،  بلکه چون برنامه نویسی برایشان سرگرم کننده است.]">
+  <meta name="description" content="لمپ (LAMP) مجموعه‌ای از نرم‌افزارهای آزاد و متن باز که برای میزبانی محتوای وب در محیط لینوکس استفاده میشه.
+تو این آموزش به شما نشون میدیم که چجوری لمپ رو روی اوبونتو ۱۹.۰۴ نصب کنید.">
   
-  <meta property="og:title" content="بلاگ" />
-<meta property="og:description" content="[بیشتر برنامه نویسان خوب برنامه نویسی می کنند. نه به این علت که انتظار دارند دستمزد بگیرند یا از سوی عموم تحسین شوند،  بلکه چون برنامه نویسی برایشان سرگرم کننده است.]" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://tekway.ir/blog/" />
+  <meta property="og:title" content="آموزش نصب LAMP روی اوبونتو 19.04" />
+<meta property="og:description" content="لمپ (LAMP) مجموعه‌ای از نرم‌افزارهای آزاد و متن باز که برای میزبانی محتوای وب در محیط لینوکس استفاده میشه.
+تو این آموزش به شما نشون میدیم که چجوری لمپ رو روی اوبونتو ۱۹.۰۴ نصب کنید." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://tekway.ir/blog/2019-07/%D8%A2%D9%85%D9%88%D8%B2%D8%B4-%D9%86%D8%B5%D8%A8-lamp-%D8%B1%D9%88%DB%8C-%D8%A7%D9%88%D8%A8%D9%88%D9%86%D8%AA%D9%88-19.04/" />
+<meta property="article:published_time" content="2019-07-11T00:00:00&#43;00:00"/>
+<meta property="article:modified_time" content="2019-07-11T00:00:00&#43;00:00"/>
 
-<meta property="og:updated_time" content="2018-09-13T22:31:21&#43;08:00"/>
 
 
   <title>
   
-       بلاگ | تک‌وی 
+       آموزش نصب LAMP روی اوبونتو 19.04 | تک‌وی 
   
   </title>
 
-  <link rel="canonical" href="https://tekway.ir/blog/">
+  <link rel="canonical" href="https://tekway.ir/blog/2019-07/%D8%A2%D9%85%D9%88%D8%B2%D8%B4-%D9%86%D8%B5%D8%A8-lamp-%D8%B1%D9%88%DB%8C-%D8%A7%D9%88%D8%A8%D9%88%D9%86%D8%AA%D9%88-19.04/">
 
   
   
@@ -52,8 +55,6 @@
 
 
   
-  
-  <link href="https://tekway.ir/blog/index.xml" rel="alternate" type="application/rss+xml" title="تک‌وی" />
   
 
   <style type="text/css">
@@ -327,8 +328,6 @@
             
     
             
-                <a href="https://tekway.ir/blog/index.xml"><i class="fas fa-rss pr-1" aria-hidden="true"></i></a>
-            
 
             
         </div>
@@ -346,225 +345,201 @@
     
 
     
-  <main class="post-main-wrapper px-5">
+  
+  <main class="post-main-wrapper">
+    
     
     <div class="row">
 
       
+
       
-        
-        <div class="col-md-3">
-          
-
-  
-
-
-
-
-
-  <hr>
-  
-    <div class="post-meta">
-      <div class="mb-2">
-        <a href="https://tekway.ir/categories/">
-          <span class="font-weight-bold text-uppercase post-meta">
-            <i class="fas fa-folder-open pr-1" aria-hidden="true"></i> 
-            دسته‌ها
-          </span>
-        </a>
-      </div>
-
-      <div class="li-x post-meta" style="margin-left: -8px;">
-        
-          
-          
-            
-            <li class="py-1">
-              <a href="https://tekway.ir/categories/%D8%A2%D9%85%D9%88%D8%B2%D8%B4%DB%8C">
-                <span>آموزشی (1)</span>
-              </a>
-            </li>           
-          
-            
-              <li class="middot"></li>
-            
-            <li class="py-1">
-              <a href="https://tekway.ir/categories/%D8%A7%D9%88%D8%A8%D9%88%D9%86%D8%AA%D9%88">
-                <span>اوبونتو (1)</span>
-              </a>
-            </li>           
-          
-            
-              <li class="middot"></li>
-            
-            <li class="py-1">
-              <a href="https://tekway.ir/categories/%D9%84%DB%8C%D9%86%D9%88%DA%A9%D8%B3">
-                <span>لینوکس (1)</span>
-              </a>
-            </li>           
-          
-        
-      </div>
-    </div>
-
-    
-  
-
-    
-          
-
-  
-
-
-
-
-
-  <hr>
-  
-    <div class="post-meta">
-      <div class="mb-2">
-        <a href="https://tekway.ir/tags/">
-          <span class="font-weight-bold text-uppercase post-meta">
-            <i class="fas fa-tags pr-1" aria-hidden="true"></i> 
-            آخرین تگ‌ها
-          </span>
-        </a>
-      </div>
-
-      <div class="li-x post-meta tags-md" style="margin-left: -8px;">
-        
-        
-        
-            <li><a href="https://tekway.ir/tags/%D8%A7%D9%88%D8%A8%D9%88%D9%86%D8%AA%D9%88" role="button"><span>اوبونتو (1)</span></a></li>
-          
-        
-            <li><a href="https://tekway.ir/tags/%D8%AA%D8%AC%D8%B1%D8%A8%D9%87" role="button"><span>تجربه (1)</span></a></li>
-          
-        
-            <li><a href="https://tekway.ir/tags/%D9%84%D9%85%D9%BE" role="button"><span>لمپ (1)</span></a></li>
-          
-        
-            <li><a href="https://tekway.ir/tags/%D9%84%DB%8C%D9%86%D9%88%DA%A9%D8%B3" role="button"><span>لینوکس (1)</span></a></li>
-          
-        
-      </div>
-    </div>
-
-    
-  
-
-          
-  
-
-
-
-
-
-
-
-  <hr>
-  
-
-  
-
-  
-        </div>
-        
-
-        
-        
-        <div class="col-md-9 mt-3">  
+      <div class="col-md-10">
       
-          <ul>
-            <div class="div-x">
-              <div class='post-heading'>
+
+        
+        <div class="z-depth-1  post-wrapper white-bg single-post">
+
+          <div class="post-header text-center" >
+  <ul class="post-meta li-x">
+    
+      
+        <li><a href="https://tekway.ir/categories/%D8%A2%D9%85%D9%88%D8%B2%D8%B4%DB%8C"><i class="fas fa-folder-open pr-1" aria-hidden="true"></i> آموزشی </a></li>
+      
+        <li><a href="https://tekway.ir/categories/%D9%84%DB%8C%D9%86%D9%88%DA%A9%D8%B3"><i class="fas fa-folder-open pr-1" aria-hidden="true"></i> لینوکس </a></li>
+      
+        <li><a href="https://tekway.ir/categories/%D8%A7%D9%88%D8%A8%D9%88%D9%86%D8%AA%D9%88"><i class="fas fa-folder-open pr-1" aria-hidden="true"></i> اوبونتو </a></li>
+      
+    
+    
+      
+        <li><a href="https://tekway.ir/series/%D9%84%DB%8C%D9%86%D9%88%DA%A9%D8%B3%DB%8C"><i class="fas fa-bookmark pr-1" aria-hidden="true"></i>لینوکسی</a></li>
+      
+    
+  </ul>
+
+  <div class="px-4 post-heading">آموزش نصب LAMP روی اوبونتو 19.04</div>
+
+  <ul class="post-meta li-x mt-1">
+    
+      <li>Jul 11, 2019</li>
+    
+
+    
+      <li class="middot"></li>
+      <li>3 دقیقه برای خواندن</li>
+    
+  </ul>
   
-      بلاگ
+    <div class="view">
+      <img src="https://tekway.ir/images/blog/2019-07/lamp.jpg" />
+    </div>
   
+
 </div>
 
-              
-              
-                <div class="px-2 middot"></div>
-                <div>
-                  یک پست
-                </div>
-              
-            </div>
 
-            
-              <div class="post-content markdown">
-                <p><code>بلاگ</code> یه جایی برای زدن حرفام</p>
+          <div class="post-content markdown">
+            <p>لمپ (LAMP) مجموعه‌ای از نرم‌افزارهای آزاد و متن باز که برای میزبانی محتوای وب در محیط لینوکس استفاده میشه.
+تو این آموزش به شما نشون میدیم که چجوری لمپ رو روی اوبونتو ۱۹.۰۴ نصب کنید.</p>
 
-<ul>
-<li><p>تفکراتم</p></li>
+<h2 id="گام-اول-آپدیت-کردن-پکیج-های-اوبونتو">گام اول: آپدیت کردن پکیج‌های اوبونتو</h2>
 
-<li><p>تجربیاتم</p></li>
-</ul>
+<p>خب قبل از نصب لمپ بهتره که مخازن و بسته‌های نرم‌افزاری اوبونتو رو آپدیت کنید.
+برای این کار از دستورات زیر استفاده میکنیم:</p>
 
-              </div>
-            
-        </ul>
-        <div>
-          <div class="pagination pagination-outline justify-content-end active-color">
-            
-            
+<pre><code>sudo apt update
+sudo apt upgrade
+</code></pre>
 
+<h2 id="گام-دوم-نصب-آپاچی-apache-web-server">گام دوم: نصب آپاچی (Apache Web Server)</h2>
+
+<p>با دستورات زیر آپاچی رو نصب کنید. بسته‌ی <code>apache2-utils</code> برخی ابزارهای مفید مثل Apache HTTP Server Benchmarking tool رو نصب خواهد کرد.</p>
+
+<pre><code>sudo apt install -y apache2 apache2-utils
+</code></pre>
+
+<p>بعد از نصب، آپاچی به صورت خودکار شروع به کار خواهد کرد. وضعیت آپاچی رو با دستور زیر چک کنید.</p>
+
+<pre><code>systemctl status apache2
+</code></pre>
+
+<p>خروجی باید مانند زیر باشد:</p>
+
+<pre><code>● apache2.service - The Apache HTTP Server
+   Loaded: loaded (/lib/systemd/system/apache2.service; enabled; vendor preset: enabled)
+   Active: active (running) since Thu 2019-07-11 11:51:41 +0430; 4h 42min ago
+     Docs: https://httpd.apache.org/docs/2.4/
+  Process: 1001 ExecStart=/usr/sbin/apachectl start (code=exited, status=0/SUCCESS)
+ Main PID: 1145 (apache2)
+    Tasks: 6 (limit: 4915)
+   Memory: 6.9M
+   CGroup: /system.slice/apache2.service
+           ├─1145 /usr/sbin/apache2 -k start
+           ├─1146 /usr/sbin/apache2 -k start
+           ├─1147 /usr/sbin/apache2 -k start
+           ├─1148 /usr/sbin/apache2 -k start
+           ├─1149 /usr/sbin/apache2 -k start
+           └─1150 /usr/sbin/apache2 -k start
+</code></pre>
+
+<p>اگر که خروجی به صورت بالا نبود، از ‍‍‍<code>systemctl</code> برای اجرا شدن آپاچی استفاده کنید:</p>
+
+<pre><code>sudo systemctl start apache2
+</code></pre>
+
+<p>همچنین برای اجرا شدن آپاچی بعد از روشن شدن سیستم بهتره که آپاچی رو فعال کنید:</p>
+
+<pre><code>sudo systemctl enable apache2
+</code></pre>
+
+<p>با دستور زیر میتونید ورژن آپاچی رو چک کنید:</p>
+
+<pre><code>apache2 -v
+</code></pre>
+
+<p>خروجی به صورت زیر است:</p>
+
+<pre><code>Server version: Apache/2.4.38 (Ubuntu)
+Server built:   2019-04-03T18:31:46
+</code></pre>
+
+<p>حالا برای اطمینان از اجرا شدن آپاچی توی مرورگر خودتون یکی از آدرس های <code>127.0.0.1</code> یا <code>localhost</code> رو وارد کنید.
+خروجی باید به صورت زیر باشه:</p>
+
+<p><img src="https://tekway.ir/images/blog/2019-07/img1.png" alt="lamp" title="lamp" /></p>
+
+<p>اگر درخواست رد شد یا انجام نشد، ممکنه که <code>iptables</code> فایروال از درخواست‌های ورودی پورت 80 جلوگیری میکند. برای باز کردن پورت <code>TCP 80</code> باید دستور زیر رو اجرا کنید:</p>
+
+<pre><code>sudo iptables -I INPUT -p tcp --dport 80 -j ACCEPT
+</code></pre>
+
+<p>اگر شما از <code>UFW</code> فایروال استفاده میکنید دستور زیر را برای بازکردن پورت <code>TCP 80</code> استفاده کنید:</p>
+
+<pre><code>sudo ufw allow http
+</code></pre>
+
+<p>خب حالا ما نیاز داریم که <code>www-data</code> رو هم به عنوان <code>document root</code> تنظیم کنیم.</p>
+
+<pre><code>sudo chown www-data:www-data /var/www/html/ -R
+</code></pre>
+
+<h2 id="گام-سوم-نصب-mariadb-database-server">گام سوم: نصب MariaDB Database Server</h2>
+
+<p>MariaDB یک جایگزین برای MySQL هستش.</p>
+
+<p>برای نصب روی اوبونتو 19.04 دستور زیر رو توی ترمینال وارد کنید:</p>
+
+<pre><code>sudo apt install mariadb-server mariadb-client
+</code></pre>
+
+<p>بعد از نصب MariaDB خودکار راه‌اندازی میشه. برای چک کردن وضعیت از دستور زیر استفاده میکنیم:</p>
+
+<pre><code>systemctl status mariadb
+</code></pre>
+
+<p>خروجی باید به شکل زیر باشه:</p>
+
+<pre><code>● mariadb.service - MariaDB 10.3.13 database server
+   Loaded: loaded (/lib/systemd/system/mariadb.service; enabled; vendor preset: enabled)
+   Active: active (running) since Fri 2019-07-12 00:20:22 +0430; 2h 38min ago
+     Docs: man:mysqld(8)
+           https://mariadb.com/kb/en/library/systemd/
+  Process: 993 ExecStartPre=/usr/bin/install -m 755 -o mysql -g root -d /var/run/mysqld (code=exited
+  Process: 1006 ExecStartPre=/bin/sh -c systemctl unset-environment _WSREP_START_POSITION (code=exit
+  Process: 1012 ExecStartPre=/bin/sh -c [ ! -e /usr/bin/galera_recovery ] &amp;&amp; VAR= ||   VAR=`/usr/bin
+  Process: 1241 ExecStartPost=/etc/mysql/debian-start (code=exited, status=0/SUCCESS)
+  Process: 1246 ExecStartPost=/bin/sh -c systemctl unset-environment _WSREP_START_POSITION (code=exi
+ Main PID: 1086 (mysqld)
+   Status: &quot;Taking your SQL requests now...&quot;
+    Tasks: 30 (limit: 4915)
+   Memory: 81.9M
+   CGroup: /system.slice/mariadb.service
+           └─1086 /usr/sbin/mysqld
+</code></pre>
+
+<p>اگر که برای شما به درستی کار نکرد دستور زیر رو وارد کنید:</p>
+
+<pre><code>sudo systemctl start mariadb
+</code></pre>
+
+<p>برای فعال کردن اجرای خودکار هنگام روشن کردن دستگاه، از دستور زیر استفاده کنید:</p>
+
+<pre><code>sudo systemctl enable mariadb
+</code></pre>
+
+<p>اکنون اسکریپت امنیتی نصب پست رو اجرا کنید:</p>
+
+<pre><code>sudo mysql_secure_installation
+</code></pre>
           </div>
 
           
-              <div class="post-wrapper white-bg post-card">
-  
-  <a href="https://tekway.ir/blog/2019-07/%D8%A2%D9%85%D9%88%D8%B2%D8%B4-%D9%86%D8%B5%D8%A8-lamp-%D8%B1%D9%88%DB%8C-%D8%A7%D9%88%D8%A8%D9%88%D9%86%D8%AA%D9%88-19.04/">
-    <div class="post-header text-center">
-      <div class="px-4 post-heading">آموزش نصب LAMP روی اوبونتو 19.04</div>
-      <ul class="post-meta li-x mt-1">
-        
-          <li>Jul 11, 2019</li>
-        
-    
-        
-          <li class="middot"></li>
-          <li>3 دقیقه برای خواندن</li>
-        
-      </ul>
-    </div>
-    
-    
-      <div class="view">
-        <img src="https://tekway.ir/images/blog/2019-07/lamp.jpg" />
-      </div>
-    
-
-    
-      لمپ (LAMP) مجموعه‌ای از نرم‌افزارهای آزاد و متن باز که برای میزبانی محتوای وب در محیط لینوکس استفاده میشه. تو این آموزش به شما نشون میدیم که چجوری لمپ رو روی اوبونتو ۱۹.۰۴ نصب کنید.
-......
-    
-  </a>
-
-  
-  
-  <div class="post-meta li-x mt-2 div-x">
-    <div>
-      
-        
-          <li><a href="https://tekway.ir/categories/%D8%A2%D9%85%D9%88%D8%B2%D8%B4%DB%8C"><i class="fas fa-folder-open pr-1" aria-hidden="true"></i> آموزشی </a></li>
-        
-          <li><a href="https://tekway.ir/categories/%D9%84%DB%8C%D9%86%D9%88%DA%A9%D8%B3"><i class="fas fa-folder-open pr-1" aria-hidden="true"></i> لینوکس </a></li>
-        
-          <li><a href="https://tekway.ir/categories/%D8%A7%D9%88%D8%A8%D9%88%D9%86%D8%AA%D9%88"><i class="fas fa-folder-open pr-1" aria-hidden="true"></i> اوبونتو </a></li>
-        
-      
-      
-        
-          <li><a href="https://tekway.ir/series/%D9%84%DB%8C%D9%86%D9%88%DA%A9%D8%B3%DB%8C"><i class="fas fa-bookmark pr-1" aria-hidden="true"></i>لینوکسی</a></li>
-        
-      
-    </div>
-   
-    <div>
-      
-        
+          <div class="row">
+            <div class="col-md-8">
+            
+              <div class="mb-5">
+                
 <div class="li-x div-x post-meta">
   <li class="pr-0"><a href="https://tekway.ir/tags/"><i class="fas fa-tags"></i></a></li>
   <div class="tags-sm">
@@ -583,20 +558,152 @@
     
   </div>
 </div>
-      
-    </div>
-  </div>
-
-</div>
+              </div>
+            
+            </div>
+            
+          </div>
+          
 
           
+          <div class="row pt-3">
+            <div class="col-md-6">
+              
+            </div>
             
+            <div class="col-md-6 text-right" >
+              
+            </div>
+          </div>
+
+          
+
+          <div
+    class="just-comments"
+    data-apikey="792be23c-c222-4bca-ac97-766ee1ebbe5c"
+    data-locale="fa"
+    data-disablesociallogin="false"
+    data-disableanonymouslogin="false"
+    data-disableloadmore="false"
+    data-disableprofilepictures="true"
+    data-disablesharebutton="false"
+    data-hideattribution="true"
+    data-enablewebsite="true"
+    data-hidecommentheader="false"
+    data-hidenocommentstext="false"
+    data-enableemailnotifications="true">
+</div>
+<script async src="https://just-comments.com/w2.js"></script>
         </div>
+        
+
       </div>
       
 
+      
+	
+	
+	
+	
+		
+		
+		
+	
+
+		
+		<div class="col-md-2 pl-0">
+
+			
+			<div id="page-scrollspy" class="toc-nav">
+				
+				<ul class="nav nav-pills ml-0">
+					
+					<li class="nav-item pb-3 text-center">
+						<span class="font-weight-bold mb-2">- CATALOG - </span>
+					</li>
+
+					
+						
+						
+							
+								
+								
+									<ul class="nav">
+								
+								
+
+										<li class="nav-item">
+						 					<a class="nav-link" href="#%da%af%d8%a7%d9%85-%d8%a7%d9%88%d9%84-%d8%a2%d9%be%d8%af%db%8c%d8%aa-%da%a9%d8%b1%d8%af%d9%86-%d9%be%da%a9%db%8c%d8%ac-%d9%87%d8%a7%db%8c-%d8%a7%d9%88%d8%a8%d9%88%d9%86%d8%aa%d9%88">
+												 گام اول: آپدیت کردن پکیج‌های اوبونتو
+											</a>
+										</li>
+						 
+								
+								
+									</ul>
+								
+							
+						
+				 
+						
+						
+							
+								
+								
+									<ul class="nav">
+								
+								
+
+										<li class="nav-item">
+						 					<a class="nav-link" href="#%da%af%d8%a7%d9%85-%d8%af%d9%88%d9%85-%d9%86%d8%b5%d8%a8-%d8%a2%d9%be%d8%a7%da%86%db%8c-apache-web-server">
+												 گام دوم: نصب آپاچی (Apache Web Server)
+											</a>
+										</li>
+						 
+								
+								
+									</ul>
+								
+							
+						
+				 
+						
+						
+							
+								
+								
+									<ul class="nav">
+								
+								
+
+										<li class="nav-item">
+						 					<a class="nav-link" href="#%da%af%d8%a7%d9%85-%d8%b3%d9%88%d9%85-%d9%86%d8%b5%d8%a8-mariadb-database-server">
+												 گام سوم: نصب MariaDB Database Server
+											</a>
+										</li>
+						 
+								
+								
+									</ul>
+								
+							
+						
+				 
+
+				</ul>
+			</div>
+			
+
+		</div>
+		
+	
+
     </div>
+    
+
   </main>
+  
+
 
     
     
@@ -636,8 +743,6 @@
         <a href="mailto:hi@alisouran.ir"><i class="far fa-envelope-open mr-3" aria-hidden="true"></i></a>
     
 
-    
-        <a href="https://tekway.ir/blog/index.xml"><i class="fas fa-rss mr-3" aria-hidden="true"></i></a>
     
 
     
