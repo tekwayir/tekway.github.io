@@ -387,7 +387,7 @@
 
     
       <li class="middot"></li>
-      <li>3 دقیقه برای خواندن</li>
+      <li>7 دقیقه برای خواندن</li>
     
   </ul>
   
@@ -403,7 +403,7 @@
             <p>لمپ (LAMP) مجموعه‌ای از نرم‌افزارهای آزاد و متن باز که برای میزبانی محتوای وب در محیط لینوکس استفاده میشه.
 تو این آموزش به شما نشون میدیم که چجوری لمپ رو روی اوبونتو ۱۹.۰۴ نصب کنید.</p>
 
-<h2 id="گام-اول-آپدیت-کردن-پکیج-های-اوبونتو">گام اول: آپدیت کردن پکیج‌های اوبونتو</h2>
+<h1 id="گام-اول-آپدیت-کردن-پکیج-های-اوبونتو">گام اول: آپدیت کردن پکیج‌های اوبونتو</h1>
 
 <p>خب قبل از نصب لمپ بهتره که مخازن و بسته‌های نرم‌افزاری اوبونتو رو آپدیت کنید.
 برای این کار از دستورات زیر استفاده میکنیم:</p>
@@ -412,7 +412,7 @@
 sudo apt upgrade
 </code></pre>
 
-<h2 id="گام-دوم-نصب-آپاچی-apache-web-server">گام دوم: نصب آپاچی (Apache Web Server)</h2>
+<h1 id="گام-دوم-نصب-آپاچی-apache-web-server">گام دوم: نصب آپاچی (Apache Web Server)</h1>
 
 <p>با دستورات زیر آپاچی رو نصب کنید. بسته‌ی <code>apache2-utils</code> برخی ابزارهای مفید مثل Apache HTTP Server Benchmarking tool رو نصب خواهد کرد.</p>
 
@@ -484,7 +484,7 @@ Server built:   2019-04-03T18:31:46
 <pre><code>sudo chown www-data:www-data /var/www/html/ -R
 </code></pre>
 
-<h2 id="گام-سوم-نصب-mariadb-database-server">گام سوم: نصب MariaDB Database Server</h2>
+<h1 id="گام-سوم-نصب-mariadb-database-server">گام سوم: نصب MariaDB Database Server</h1>
 
 <p>MariaDB یک جایگزین برای MySQL هستش.</p>
 
@@ -532,6 +532,206 @@ Server built:   2019-04-03T18:31:46
 
 <pre><code>sudo mysql_secure_installation
 </code></pre>
+
+<p>در قسمت اول:</p>
+
+<p><code>Enter current password for root (enter for none):</code></p>
+
+<p>برای این قسمت فقط دکمه‌ی <code>Enter</code> را بزنید.</p>
+
+<p>سپس سوالاتی که از شما پرسیده خواهد شد رو به ترتیب زیر پاسخ بدید:</p>
+
+<pre><code>set root password: [Y/n] Y
+New Password: پسورد خود را وارد کنید.
+Remove anonymous users? [Y/n] Y or Press Enter
+Disallow root login remotely? [Y/n] Y or Press Enter
+Remove test database and access to it? [Y/n] Y or Press Enter
+Reload privilege tables now? [Y/n] Y or Press Enter
+</code></pre>
+
+<p>به طور پیشفرض بسته <code>MaraiDB</code> در اوبونتو از <code>unix_socket</code> برای تأیید اعتبار ورود به سیستم استفاده می کند که اساسا بدین معنی است که شما می توانید از نام کاربری و رمز عبور سیستم عامل برای ورود به کنسول MariaDB استفاده کنید.بنابراین شما می توانید دستور زیر را برای وارد شدن بدون ارائه رمز عبور <code>root</code>، میتوانید<code>MariaDB</code> را اجرا کنید.</p>
+
+<pre><code>sudo mariadb -u root
+</code></pre>
+
+<p>برای خارج شدن دستور زیر رو وارد کنید:</p>
+
+<pre><code>exit;
+</code></pre>
+
+<p>ورژن <code>MariaDB server</code> رو با دستور زیر چک کنید:</p>
+
+<pre><code>mariadb --version
+</code></pre>
+
+<p>خروجی باید چیزی شبیه زیر باشد:</p>
+
+<pre><code>mariadb  Ver 15.1 Distrib 10.3.13-MariaDB, for debian-linux-gnu (x86_64) using readline 5.2
+</code></pre>
+
+<h1 id="گام-چهارم-نصب-php7-2">گام چهارم: نصب PHP7.2</h1>
+
+<p>خب حالا سراغ نصب PHP7.2 میریم.
+برای نصب باید دستور زیر رو وارد کنید:</p>
+
+<pre><code>sudo apt install php7.2 libapache2-mod-php7.2 php7.2-mysql php-common php7.2-cli php7.2-common php7.2-json php7.2-opcache php7.2-readline
+</code></pre>
+
+<p>ماژول آپاچی php7.2 را فعال کنید سپس سرور آپاچی را راه اندازی مجدد کنید.</p>
+
+<pre><code>sudo a2enmod php7.2
+
+sudo systemctl restart apache2
+</code></pre>
+
+<p>ورژن <code>PHP</code> نصب شده رو چک کنید:</p>
+
+<pre><code>php --version
+</code></pre>
+
+<p>باید خروجی زیر برای شما چاپ شود:</p>
+
+<pre><code>PHP 7.2.19-0ubuntu0.19.04.1 (cli) (built: Jun  4 2019 14:44:42) ( NTS )
+Copyright (c) 1997-2018 The PHP Group
+Zend Engine v3.2.0, Copyright (c) 1998-2018 Zend Technologies
+    with Zend OPcache v7.2.19-0ubuntu0.19.04.1, Copyright (c) 1999-2018, by Zend Technologies
+</code></pre>
+
+<p>برای تست اسکریپتهای PHP با سرور Apache، ما باید یک فایل info.php را در محل <code>root</code> ایجاد کنیم.</p>
+
+<pre><code>sudo nano /var/www/html/info.php
+</code></pre>
+
+<p>سپس در نانو کد زیر را وارد کنید و بعد به ترتیب با <code>Enter</code> , <code>Y</code> , <code>Ctrl+x</code> فایل مورد نظر رو ذخیره کنید.</p>
+
+<pre><code>&lt;?php phpinfo(); ?&gt;
+</code></pre>
+
+<p>بعد از وارد کردن این کد از طریق یکی از دو آدرس زیر در مرورگر ورژن PHP رو چک کنید:</p>
+
+<pre><code>127.0.0.1/info.php
+
+localhost/info.php
+</code></pre>
+
+<h2 id="نحوه-اجرای-php-fpm-با-apache">نحوه اجرای PHP-FPM با Apache</h2>
+
+<p>اساسا دو راه برای اجرای کد PHP با سرور وب Apache وجود دارد:</p>
+
+<ul>
+<li><p>ماژول Apache PHP</p></li>
+
+<li><p>PHP-FPM</p></li>
+</ul>
+
+<p>در مراحل فوق، ماژول PHP7.2 برای مدیریت کد PHP استفاده می شود که معمولا خوب است. اما در بعضی موارد، شما باید PHP را با PHP-FPM اجرا کنید. اما چطور؟</p>
+
+<p>اول باید ماژول PHP7.2 رو غیر فعال کنید.</p>
+
+<pre><code>sudo a2dismod php7.2
+</code></pre>
+
+<p>نصب بسته‌ی PHP-FPM.</p>
+
+<pre><code>sudo apt install php7.2-fpm
+</code></pre>
+
+<p>فعال کردن ماژول های <code>proxy_fcgi</code> و <code>setenvif</code>.</p>
+
+<pre><code>sudo a2enmod proxy_fcgi setenvif
+</code></pre>
+
+<p>فعال کردن فایل پیکربندی <code>/etc/apache2/conf-available/php7.2-fpm.conf</code>.</p>
+
+<pre><code>sudo a2enconf php7.2-fpm
+</code></pre>
+
+<p>آپاچی را راه‌اندازی مجدد کنید تا تغییرات اعمال شود.</p>
+
+<pre><code>sudo systemctl restart apache2
+</code></pre>
+
+<p>حالا اگر صفحه <code>info.php</code> را در مرورگر خود بازنویسی کنید، می بینید که <code>API</code> سرور به <code>FPM / FastCGI</code> تغییر کرده است، به این معنی که وب سرور آپاچی درخواست <code>PHP</code> را به <code>PHP-FPM</code> منتقل می کند.</p>
+
+<p><img src="https://tekway.ir/images/blog/2019-07/img2.png" alt="lamp" title="lamp" /></p>
+
+<p>خب تبریک میگم، شما با موفقیت <code>LAMP</code> رو نصب کردید.</p>
+
+<h1 id="گام-پنجم-نصب-phpmyadmin">گام پنجم: نصب phpMyAdmin</h1>
+
+<p>بعد از نصب کردن <code>LAMP</code> نیازه که مخزن <code>universe</code> رو فعال کنید.</p>
+
+<pre><code>sudo add-apt-repository universe
+</code></pre>
+
+<p>اکنون زمان نصب <code>phpMyAdmin</code> است.</p>
+
+<pre><code>sudo apt update
+
+sudo apt install phpmyadmin php-mbstring php-gettext
+</code></pre>
+
+<p>حالا، وب سرور را انتخاب کنید که باید به طور خودکار برای اجرای <code>phpMyAdmin</code> پیکربندی شود. وب سرور را با فلش های <code>UP / DOWN</code> انتخاب کنید و کلید <code>SPACEBAR</code> را فشار دهید. هنگامی که وب سرور را انتخاب کردید، نماد * (ستاره) در مقابل آن مشاهده خواهید کرد. کلید <code>TAB</code> را فشار دهید تا <code>OK</code> را انتخاب کنید و دوباره کلید <code>ENTER</code> را بزنید تا ادامه یابد.</p>
+
+<p><img src="https://tekway.ir/images/blog/2019-07/img3.png" alt="lamp" title="lamp" /></p>
+
+<p>برای ادامه <code>ENTER</code> را فشار دهید.</p>
+
+<p><img src="https://tekway.ir/images/blog/2019-07/img4.png" alt="lamp" title="lamp" /></p>
+
+<p>برای پیکربندی‌ پایگاه داده برای <code>phpMyAdmin</code> باید <code>Yes</code> را انتخاب کنید.</p>
+
+<p><img src="https://tekway.ir/images/blog/2019-07/img5.png" alt="lamp" title="lamp" /></p>
+
+<p>رمزعبور <code>MySQL</code> رو برای <code>phpMyAdmin</code> وارد کنید.</p>
+
+<p><img src="https://tekway.ir/images/blog/2019-07/img6.png" alt="lamp" title="lamp" /></p>
+
+<p>پسورد رو دوباره وارد کنید.</p>
+
+<p><img src="https://tekway.ir/images/blog/2019-07/img7.png" alt="lamp" title="lamp" /></p>
+
+<p>بعد از نصب <code>phpMyAdmin</code> افزونه‌ی <code>mbstring</code> برای <code>PHP</code> رو فعال کنید و سپس آپاچی رو راه‌اندازی مجدد کنید.</p>
+
+<pre><code>sudo phpenmod mbstring
+
+sudo systemctl restart apache2
+</code></pre>
+
+<h2 id="ساختن-کاربر-اختصاصی-برای-دسترسی-به-داشبورد-phpmyadmin">ساختن کاربر اختصاصی برای دسترسی به داشبورد phpMyAdmin</h2>
+
+<p>برای این‌کار ابتدا به شل <code>MySQL</code> وارد شوید:</p>
+
+<pre><code>mysql -u root -p
+</code></pre>
+
+<p>دستور زیر رو برای ایجاد کاربر جدید وارد کنید.</p>
+
+<pre><code>CREATE USER 'phpmyadminuser'@'localhost' IDENTIFIED BY 'password';
+</code></pre>
+
+<p>به جای <code>phpmyadminuser</code> نام کاربری خود را وارد کنید و به جای <code>password</code> هم نام کاربری مورد نظر خود را.</p>
+
+<p>سپس دستور زیر را برای دادن اجازه‌ به کاربر وارد نمایید.</p>
+
+<pre><code>GRANT ALL PRIVILEGES ON *.* TO 'phpmyadminuser'@'localhost' WITH GRANT OPTION;
+</code></pre>
+
+<p>در اخر با دستور زیر خارج شوید:</p>
+
+<pre><code>exit
+</code></pre>
+
+<p>برای دسترسی به داشبورد <code>phpMyAdmin</code> به آدرس زیر بروید و از نام کاربری و رمزعبوری که در مرحله‌ی قبل تعیین کرده‌اید استفاده نمایید.</p>
+
+<p>برای امنیت سرور شما بهتره <code>info.php</code> رو حذف کنید.</p>
+
+<pre><code>sudo rm /var/www/html/info.php
+</code></pre>
+
+<p>امیدوارم براتون مفید بوده باشه.</p>
+
+<p>نظراتتون رو با ما درمیون بزارید.</p>
           </div>
 
           
@@ -683,6 +883,102 @@ Server built:   2019-04-03T18:31:46
 										</li>
 						 
 								
+								
+									</ul>
+								
+							
+						
+				 
+						
+						
+							
+								
+								
+									<ul class="nav">
+								
+								
+
+										<li class="nav-item">
+						 					<a class="nav-link" href="#%da%af%d8%a7%d9%85-%da%86%d9%87%d8%a7%d8%b1%d9%85-%d9%86%d8%b5%d8%a8-php7-2">
+												 گام چهارم: نصب PHP7.2
+											</a>
+										</li>
+						 
+								
+								
+									</ul>
+								
+							
+						
+				 
+						
+						
+							
+								
+								
+									<ul class="nav">
+								
+									<ul class="nav">
+								
+								
+
+										<li class="nav-item">
+						 					<a class="nav-link" href="#%d9%86%d8%ad%d9%88%d9%87-%d8%a7%d8%ac%d8%b1%d8%a7%db%8c-php-fpm-%d8%a8%d8%a7-apache">
+												 نحوه اجرای PHP-FPM با Apache
+											</a>
+										</li>
+						 
+								
+								
+									</ul>
+								
+									</ul>
+								
+							
+						
+				 
+						
+						
+							
+								
+								
+									<ul class="nav">
+								
+								
+
+										<li class="nav-item">
+						 					<a class="nav-link" href="#%da%af%d8%a7%d9%85-%d9%be%d9%86%d8%ac%d9%85-%d9%86%d8%b5%d8%a8-phpmyadmin">
+												 گام پنجم: نصب phpMyAdmin
+											</a>
+										</li>
+						 
+								
+								
+									</ul>
+								
+							
+						
+				 
+						
+						
+							
+								
+								
+									<ul class="nav">
+								
+									<ul class="nav">
+								
+								
+
+										<li class="nav-item">
+						 					<a class="nav-link" href="#%d8%b3%d8%a7%d8%ae%d8%aa%d9%86-%da%a9%d8%a7%d8%b1%d8%a8%d8%b1-%d8%a7%d8%ae%d8%aa%d8%b5%d8%a7%d8%b5%db%8c-%d8%a8%d8%b1%d8%a7%db%8c-%d8%af%d8%b3%d8%aa%d8%b1%d8%b3%db%8c-%d8%a8%d9%87-%d8%af%d8%a7%d8%b4%d8%a8%d9%88%d8%b1%d8%af-phpmyadmin">
+												 ساختن کاربر اختصاصی برای دسترسی به داشبورد phpMyAdmin
+											</a>
+										</li>
+						 
+								
+								
+									</ul>
 								
 									</ul>
 								
