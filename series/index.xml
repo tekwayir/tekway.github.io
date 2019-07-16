@@ -1,15 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Series on تک‌وی</title>
+    <title>Series on تِکــ&#39;‌وِی</title>
     <link>https://tekway.ir/series/</link>
-    <description>Recent content in Series on تک‌وی</description>
+    <description>Recent content in Series on تِکــ&#39;‌وِی</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fa-Hans</language>
-    <lastBuildDate>Thu, 11 Jul 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 16 Jul 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://tekway.ir/series/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>آموزشی</title>
+      <link>https://tekway.ir/series/%D8%A2%D9%85%D9%88%D8%B2%D8%B4%DB%8C/</link>
+      <pubDate>Tue, 16 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://tekway.ir/series/%D8%A2%D9%85%D9%88%D8%B2%D8%B4%DB%8C/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>لینوکسی</title>

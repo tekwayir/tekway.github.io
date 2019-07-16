@@ -54,3 +54,42 @@ label.aad47099623914a20a5ec43013131800\.css:nth-child(3) > input:nth-child(1),co
     border-left: 0;
     border-right: .025rem solid var(--active-color);
 }
+
+.just-comments>div>div, .just-comments>div>p, .just-comments>div>div>form>div>div>div>label,.just-comments>div>div>form>div>div>div>div,.just-comments>div>div>form>div>label{
+    direction: rtl !important;
+    text-align: right;
+}
+
+.download-box{
+    border: 1px solid #eee;
+background: #eee;
+border-radius: 5px;
+padding: 15px;
+}
+
+.download-box>div{
+    border: 1px solid #CFD8DC;
+
+    border-radius: 5px;
+    
+    background: #CFD8DC;
+    
+    padding: 10px;
+}
+
+.download-box>div>a{
+    color: #00796B;
+font-weight: bold;
+}
+
+.download-box>div>a:hover{
+    color: #283593;
+}
+
+.download-box>div>p{
+    color: #283593;
+}
+
+.d-line{
+    display: inline;
+}

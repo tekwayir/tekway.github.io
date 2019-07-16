@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on تک‌وی</title>
+    <title>Categories on تِکــ&#39;‌وِی</title>
     <link>https://tekway.ir/categories/</link>
-    <description>Recent content in Categories on تک‌وی</description>
+    <description>Recent content in Categories on تِکــ&#39;‌وِی</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fa-Hans</language>
-    <lastBuildDate>Thu, 11 Jul 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 16 Jul 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://tekway.ir/categories/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,9 +14,27 @@
     <item>
       <title>آموزشی</title>
       <link>https://tekway.ir/categories/%D8%A2%D9%85%D9%88%D8%B2%D8%B4%DB%8C/</link>
-      <pubDate>Thu, 11 Jul 2019 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 16 Jul 2019 00:00:00 +0000</pubDate>
       
       <guid>https://tekway.ir/categories/%D8%A2%D9%85%D9%88%D8%B2%D8%B4%DB%8C/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>انجمن</title>
+      <link>https://tekway.ir/categories/%D8%A7%D9%86%D8%AC%D9%85%D9%86/</link>
+      <pubDate>Tue, 16 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://tekway.ir/categories/%D8%A7%D9%86%D8%AC%D9%85%D9%86/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>طراحی وب</title>
+      <link>https://tekway.ir/categories/%D8%B7%D8%B1%D8%A7%D8%AD%DB%8C-%D9%88%D8%A8/</link>
+      <pubDate>Tue, 16 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://tekway.ir/categories/%D8%B7%D8%B1%D8%A7%D8%AD%DB%8C-%D9%88%D8%A8/</guid>
       <description></description>
     </item>
     
