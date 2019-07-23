@@ -103,3 +103,7 @@ font-weight: bold;
 .d-line{
     display: inline;
 }
+
+.li-x .post-meta>li,.li-x .post-meta>li>a,.li-x .post-meta>li>a>span{
+    direction: rtl !important;
+}
