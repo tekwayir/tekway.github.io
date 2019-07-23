@@ -64,7 +64,12 @@ label.aad47099623914a20a5ec43013131800\.css:nth-child(3) > input:nth-child(1),co
     margin-right: 0 !important;
     margin-left: 100px;
 }
+.just-comments>div>div>form>div>div>div>div>span{
 
+    text-align: right !important;
+    direction: rtl !important;
+
+}
 .download-box{
     border: 1px solid #eee;
 background: #eee;
