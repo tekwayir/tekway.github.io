@@ -47,6 +47,7 @@ if (location.hash) {
 }
 
 $(document).ready(function(){
+    
     $('.qualitypick').change(function(){ 
  
        //Have several videos in file, so have to navigate directly
@@ -65,6 +66,8 @@ $(document).ready(function(){
        videoDOM.play();                 //Resume video
     })
  })
+
+
 
 // // $('[data-spy="scroll"]').each(function () {
 // //     var $spy = $(this).scrollspy('refresh')
