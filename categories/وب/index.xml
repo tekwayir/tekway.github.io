@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>بلاگ on تِکــ&#39;‌وِی</title>
-    <link>https://tekway.ir/blog/</link>
-    <description>Recent content in بلاگ on تِکــ&#39;‌وِی</description>
+    <title>وب on تِکــ&#39;‌وِی</title>
+    <link>https://tekway.ir/categories/%D9%88%D8%A8/</link>
+    <description>Recent content in وب on تِکــ&#39;‌وِی</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fa-Hans</language>
-    <lastBuildDate>Thu, 13 Sep 2018 22:31:21 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 26 Jul 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://tekway.ir/blog/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://tekway.ir/categories/%D9%88%D8%A8/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -20,16 +20,6 @@
       <description>&lt;p&gt;امروز صبح بعد از چند وقت توی توییتر که رفتم دیدم همه‌جا خبر از تحریم ایرانی‌ها توسط گیت‌هاب (مایکروسافت)ـه!&lt;/p&gt;
 
 &lt;p&gt;اولین چیزی که توی ذهنم اومد وب‌سایت‌هایی بود که من روی گیت‌هاب پیج خودم داشتم پس دنبال راه‌حل گشتم برای این که بتونم از وب سایت&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>آموزش نصب LAMP روی اوبونتو 19.04</title>
-      <link>https://tekway.ir/blog/2019-07/%D8%A2%D9%85%D9%88%D8%B2%D8%B4-%D9%86%D8%B5%D8%A8-lamp-%D8%B1%D9%88%DB%8C-%D8%A7%D9%88%D8%A8%D9%88%D9%86%D8%AA%D9%88-19.04/</link>
-      <pubDate>Thu, 11 Jul 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://tekway.ir/blog/2019-07/%D8%A2%D9%85%D9%88%D8%B2%D8%B4-%D9%86%D8%B5%D8%A8-lamp-%D8%B1%D9%88%DB%8C-%D8%A7%D9%88%D8%A8%D9%88%D9%86%D8%AA%D9%88-19.04/</guid>
-      <description>&lt;p&gt;لمپ (LAMP) مجموعه‌ای از نرم‌افزارهای آزاد و متن باز که برای میزبانی محتوای وب در محیط لینوکس استفاده میشه.
-تو این آموزش به شما نشون میدیم که چجوری لمپ رو روی اوبونتو ۱۹.۰۴ نصب کنید.&lt;/p&gt;</description>
     </item>
     
   </channel>
