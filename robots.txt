@@ -1,0 +1,8 @@
+# ایجاد شده analytics.upseo.ir توسط سایت robots.txt فایل
+User-agent: Googlebot
+Disallow: 
+User-agent: googlebot-mobile
+Disallow: 
+User-agent: *
+Disallow: 
+Disallow: /
