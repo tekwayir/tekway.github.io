@@ -6,24 +6,15 @@
     <description>Recent content in Series on تِکــ&#39;‌وِی</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fa-Hans</language>
-    <lastBuildDate>Sat, 27 Jul 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 09 Aug 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://tekway.ir/series/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>گیت‌هاب</title>
-      <link>https://tekway.ir/series/%DA%AF%DB%8C%D8%AA%D9%87%D8%A7%D8%A8/</link>
-      <pubDate>Sat, 27 Jul 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://tekway.ir/series/%DA%AF%DB%8C%D8%AA%D9%87%D8%A7%D8%A8/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>آموزشی</title>
       <link>https://tekway.ir/series/%D8%A2%D9%85%D9%88%D8%B2%D8%B4%DB%8C/</link>
-      <pubDate>Tue, 16 Jul 2019 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 09 Aug 2019 00:00:00 +0000</pubDate>
       
       <guid>https://tekway.ir/series/%D8%A2%D9%85%D9%88%D8%B2%D8%B4%DB%8C/</guid>
       <description></description>
@@ -32,9 +23,18 @@
     <item>
       <title>لینوکسی</title>
       <link>https://tekway.ir/series/%D9%84%DB%8C%D9%86%D9%88%DA%A9%D8%B3%DB%8C/</link>
-      <pubDate>Thu, 11 Jul 2019 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 07 Aug 2019 00:00:00 +0000</pubDate>
       
       <guid>https://tekway.ir/series/%D9%84%DB%8C%D9%86%D9%88%DA%A9%D8%B3%DB%8C/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>گیت‌هاب</title>
+      <link>https://tekway.ir/series/%DA%AF%DB%8C%D8%AA%D9%87%D8%A7%D8%A8/</link>
+      <pubDate>Sat, 27 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://tekway.ir/series/%DA%AF%DB%8C%D8%AA%D9%87%D8%A7%D8%A8/</guid>
       <description></description>
     </item>
     

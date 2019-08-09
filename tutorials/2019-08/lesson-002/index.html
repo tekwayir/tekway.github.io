@@ -1,0 +1,701 @@
+<!DOCTYPE html>
+<html lang="fa-Hans">
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, maximum-scale=1" />
+  <meta name="author" content="علی‌سوران">
+  <meta name="description" content="آموزش طراحی و توسعه‌ی سایت - قسمت اول در سایت تک‌وی همراه با پروژه">
+  
+  <meta property="og:title" content="جلسه‌ی دوم آموزش طراحی وب - HTML" />
+<meta property="og:description" content="آموزش طراحی و توسعه‌ی سایت - قسمت اول در سایت تک‌وی همراه با پروژه" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://tekway.ir/tutorials/2019-08/lesson-002/" />
+<meta property="article:published_time" content="2019-08-09T00:00:00+00:00" />
+<meta property="article:modified_time" content="2019-08-09T00:00:00+00:00" /><meta property="og:see_also" content="https://tekway.ir/tutorials/2019-07/lesson-001/" />
+
+
+
+  <title>
+  
+       جلسه‌ی دوم آموزش طراحی وب - HTML | تِکــ&#39;‌وِی 
+  
+  </title>
+
+  <link rel="canonical" href="https://tekway.ir/tutorials/2019-08/lesson-002/">
+
+  
+  
+
+  
+  <link href="https://tekway.ir/css/vendors-extensions/fontawesome/all.min.css" rel="stylesheet">
+
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Ubuntu+Mono:400,400i,700,700i|Raleway:300,400,500,600">
+  <link href="https://tekway.ir/css/font.css" rel="stylesheet"> 
+    
+  
+  <link href="https://tekway.ir/css/vendors/bootstrap4/bootstrap.min.css" rel="stylesheet">
+  <link href="https://tekway.ir/css/vendors-extensions/mdb/mdb.min.css" rel="stylesheet"> 
+  <link href="https://tekway.ir/css/main.css" rel="stylesheet">
+  <link href="https://tekway.ir/css/main-rtl.css" rel="stylesheet">
+
+  
+  <link rel="shortcut icon"
+  
+      href="https://tekway.ir/img/zheng.png"
+  
+  >
+
+
+  
+  
+
+  <style type="text/css">
+      @media (min-width: 800px) and (max-width: 850px) {
+              .navbar:not(.top-nav-collapse) {
+                  background: #1C2331!important;
+              }
+          }
+  </style>
+
+
+  
+    
+    <link rel="stylesheet" href="https://tekway.ir/js/vendors/katex/katex.min.css">
+  
+  
+
+
+</head>
+
+  <body class="bg-light" data-spy="scroll" data-target="#page-scrollspy" data-offset="90">
+  
+    
+    
+
+    
+      
+
+
+<nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar">
+    <div class="container">
+
+      
+      <a class="navbar-brand" href="https://tekway.ir">
+          
+        <img class="avatar" src="https://tekway.ir/img/zheng.png" style="width: 40px!important;height: auto;"  class="d-inline-block align-top" alt="" >
+        
+        <strong> علی‌سوران</strong>
+      </a>
+
+      
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+        
+        <ul class="navbar-nav ml-auto ">
+          <li class="nav-item ">
+            <a class="nav-link" href="https://tekway.ir">خانه</a>
+          </li>
+             
+            <li class="nav-item ">
+              <a class="nav-link" href="https://tekway.ir/blog/" >بلاگ  </a>
+            </li>
+          
+             
+            <li class="nav-item ">
+              <a class="nav-link" href="https://tekway.ir/tutorials/" >آموزش‌ها  </a>
+            </li>
+          
+             
+            <li class="nav-item ">
+              <a class="nav-link" href="https://tekway.ir/about/" >درباره‌ی ما  </a>
+            </li>
+          
+          
+        </ul>
+
+      </div>
+
+    </div>
+  </nav>
+  
+ 
+      
+ 
+
+
+
+
+
+
+<div id="site-header" class="carousel slide carousel-fade" data-ride="carousel" style="height: 18rem;" >  
+
+  
+  
+  
+
+  
+  <div class="carousel-inner" role="listbox">
+    
+      
+
+        
+        <div class="carousel-item active">
+          <div class="view" style="background-image: url('https://tekway.ir/img/header-slides/001.jpg'); background-repeat: no-repeat; background-size: cover;">
+
+            
+            <div class="mask rgba-black-light d-flex justify-content-center align-items-center">
+
+              
+              
+              
+
+            </div>
+            
+
+          </div>
+        </div>
+        
+      
+    
+      
+
+        
+        <div class="carousel-item">
+          <div class="view" style="background-image: url('https://tekway.ir/img/header-slides//002.jpg'); background-repeat: no-repeat; background-size: cover;">
+
+            
+            <div class="mask rgba-black-light d-flex justify-content-center align-items-center">
+
+            
+
+            </div>
+            
+
+          </div>
+        </div>
+        
+      
+    
+      
+
+        
+        <div class="carousel-item">
+          <div class="view" style="background-image: url('https://tekway.ir/img/header-slides//003.jpg'); background-repeat: no-repeat; background-size: cover;">
+
+            
+            <div class="mask rgba-black-light d-flex justify-content-center align-items-center">
+
+            
+
+            </div>
+            
+
+          </div>
+        </div>
+        
+      
+    
+      
+
+        
+        <div class="carousel-item">
+          <div class="view" style="background-image: url('https://tekway.ir/img/header-slides//004.jpg'); background-repeat: no-repeat; background-size: cover;">
+
+            
+            <div class="mask rgba-black-light d-flex justify-content-center align-items-center">
+
+            
+
+            </div>
+            
+
+          </div>
+        </div>
+        
+      
+    
+      
+
+        
+        <div class="carousel-item">
+          <div class="view" style="background-image: url('https://tekway.ir/img/header-slides//005.jpg'); background-repeat: no-repeat; background-size: cover;">
+
+            
+            <div class="mask rgba-black-light d-flex justify-content-center align-items-center">
+
+            
+
+            </div>
+            
+
+          </div>
+        </div>
+        
+      
+    
+      
+
+        
+        <div class="carousel-item">
+          <div class="view" style="background-image: url('https://tekway.ir/img/header-slides//006.jpg'); background-repeat: no-repeat; background-size: cover;">
+
+            
+            <div class="mask rgba-black-light d-flex justify-content-center align-items-center">
+
+            
+
+            </div>
+            
+
+          </div>
+        </div>
+        
+      
+    
+
+  
+  </div>
+  
+
+  
+  <div class="carousel-content text-center white-text wow fadeIn">
+    <div class="row mx-0 headfont mt-3 pt-4">
+      
+      <div class="col-12 col-sm-5 align-middle text-in-mobile">
+        <a href="https://tekway.ir">
+          
+            <img class="pull-left avatar avatar-md" src="https://tekway.ir/img/TekWay.png" alt="" >
+          
+        </a>
+      </div>
+      
+      <div class="col-12 col-sm-7 text-right pl-2 text-mobile-center">
+        <a href="https://tekway.ir">
+          <h1 class="mb-2 h1" style="font-weight: 300;" >
+            <strong>تِکــ&#39;‌وِی</strong>
+          </h1>
+        </a>
+        
+
+             
+        <div class="mt-2" style="font-size: 1rem; color: white;">
+            
+              <a href="//github.com/alisouran" target="_blank" rel="noopener"><i class="fab fa-github pr-1" aria-hidden="true"></i></a>    
+            
+            
+              <a href="//linkedin.com/in/alisouran" target="_blank" rel="noopener"><i class="fab fa-linkedin pr-1" aria-hidden="true"></i></a>
+            
+
+            
+              <a href="//facebook.com/alirezasoran" target="_blank" rel="noopener"><i class="fab fa-facebook pr-1" aria-hidden="true"></i></a>
+            
+
+            
+
+            
+                <a href="//twitter.com/alisouran" target="_blank" rel="noopener"><i class="fab fa-twitter pr-1" aria-hidden="true"></i></a>
+            
+
+            
+                <a href="//instagram.com/alisouran" target="_blank" rel="noopener"><i class="fab fa-instagram pr-1" aria-hidden="true"></i></a>
+            
+    
+            
+    
+        
+            
+                <a href="mailto:hi@alisouran.ir"><i class="far fa-envelope-open pr-1" aria-hidden="true"></i></a>
+            
+    
+            
+
+            
+        </div>
+      </div>
+    </div>
+  </div>
+  
+
+  
+  
+  
+
+</div>
+  
+    
+
+    
+  
+  <main class="post-main-wrapper">
+    
+    
+    <div class="row">
+
+      
+
+      
+      <div class="col-md-10">
+      
+
+        
+        <div class="z-depth-1  post-wrapper white-bg single-post">
+
+          <div class="post-header text-center" >
+  <ul class="post-meta li-x">
+    
+      
+        <li><a href="https://tekway.ir/categories/%D8%A2%D9%85%D9%88%D8%B2%D8%B4%DB%8C"><i class="fas fa-folder-open pr-1" aria-hidden="true"></i> آموزشی </a></li>
+      
+        <li><a href="https://tekway.ir/categories/%D8%B7%D8%B1%D8%A7%D8%AD%DB%8C-%D9%88%D8%A8"><i class="fas fa-folder-open pr-1" aria-hidden="true"></i> طراحی وب </a></li>
+      
+        <li><a href="https://tekway.ir/categories/%D8%A7%D9%86%D8%AC%D9%85%D9%86"><i class="fas fa-folder-open pr-1" aria-hidden="true"></i> انجمن </a></li>
+      
+    
+    
+      
+        <li><a href="https://tekway.ir/series/%D8%A2%D9%85%D9%88%D8%B2%D8%B4%DB%8C"><i class="fas fa-bookmark pr-1" aria-hidden="true"></i>آموزشی</a></li>
+      
+    
+  </ul>
+
+  <div class="px-4 post-heading">جلسه‌ی دوم آموزش طراحی وب - HTML</div>
+
+  <ul class="post-meta li-x mt-1">
+    
+      <li>Aug 9, 2019</li>
+    
+
+    
+      <li class="middot"></li>
+      <li>2 دقیقه برای خواندن</li>
+    
+  </ul>
+  
+    <div class="view">
+      <img src="https://tekway.ir/images/tutorials/2019-08/Lesson-02.jpg" />
+    </div>
+  
+
+</div>
+
+
+          <div class="post-content markdown">
+            <p>سلام، علیرضا سوران هستم و با قسمت دوم از آموزش طراحی سایت در خدمتتونم.</p>
+
+<p>جلسه‌ی قبلی رو همونطور که دیدیم راجب تگ‌های متنی کار کردیم</p>
+
+<p>اما این جلسه قصد داریم که تگ‌های فهرست، لینک‌ها و تصاویر رو باهم کار کنیم.</p>
+
+<p>یه توضیح بدم که فیلم‌ها به خاطر حجم بالا مجبور شدم تیکه تیکه کنم که هم راحت تر دانلود کنید هم خودم راحت تر آپلود کنم</p>
+
+<h2 id="دانلود-آموزش-ها">دانلود آموزش ها</h2>
+
+<div class="download-box">
+<p><a href="https://tekway.ir/how-to-download">آموزش دانلود فایل‌ها</a></p>
+    <div>
+        <a href="http://2ad.ir/kRFdzey3" target="_blank">دانلود قسمت اول</a> - <p class="d-line">فهرست های orderlit و unorderlist قسمت اول</p>
+            <hr />
+        <a href="http://2ad.ir/hsivY" target="_blank">دانلود قسمت دوم</a> - <p class="d-line">قسمت دوم و پایانی فهرست‌ها defenition list و فهرست‌های تو در تو</p>
+            <hr />
+        <a href="http://2ad.ir/WrwsA6kj" target="_blank">دانلود قسمت سوم</a> - <p class="d-line">قسمت اول لینک‌ها، تعریف لینک و لینک‌دادن به صفحات خارجی</p>
+            <hr />
+        <a href="http://2ad.ir/9skVz7" target="_blank">دانلود قسمت چهارم</a> - <p class="d-line">قسمت دوم لینک‌ها، آدرس دهی لینک‌های محلی و بازشدن لینک در صفحه‌ی جدید</p>
+            <hr />
+        <a href="http://2ad.ir/m56glEEe" target="_blank">دانلود قسمت پنجم</a> - <p class="d-line">قسمت سوم و پایانی لینک‌ها، آدرس‌دادن به ایمیل داخل تگ لینک و رفتن به صفحات قسمت‌های مختلف یک صفحه با کلیک کردن روی لینک</p>
+            <hr />
+        <a href="http://2ad.ir/q8MmXxhQ" target="_blank">دانلود قسمت ششم</a> - <p class="d-line">قسمت اول تصاویر، شروع درج یک تصویر و نکاتی راجب تصاویر</p>
+            <hr />
+        <a href="http://2ad.ir/9Dcw448n" target="_blank">دانلود قسمت هفتم</a> - <p class="d-line">قسمت دوم تصاویر، نکاتی درباره‌ی ذخیره‌ی تصاویر مورد نظر در فرمت و اندازه‌ی درست</p>
+            <hr />
+        <a href="http://2ad.ir/wBD3W" target="_blank">دانلود قسمت هشتم</a> - <p class="d-line">قسمت سوم و پایانی تصاویر، ذخیره در اندازه‌ی درست و تصاویر همراه با توضیحات</p>
+            <hr />
+        <a href="http://2ad.ir/u70ohG" style="color:#8E24AA" target="_blank">دانلود سورس درس دوم</a>
+    </div>
+</div>
+
+<hr />
+
+<h2 id="آموزش-ذخیره-ی-عکس-در-فتوشاپ-برای-وب">آموزش ذخیره‌ی عکس در فتوشاپ برای وب</h2>
+
+<p>برای ذخیره‌ی تصاویر برای وب توی فتوشاپ به <a href="https://tekway.ir/blog/2019-08/آموزش-ذخیرهی-تصاویر-برای-وب-روی-فتوشاپ/">این پست</a> مراجعه کنید.</p>
+          </div>
+
+          
+          <div class="row">
+            <div class="col-md-8">
+            
+              <div class="mb-5">
+                
+<div class="li-x div-x post-meta">
+  <li class="pr-0"><a href="https://tekway.ir/tags/"><i class="fas fa-tags"></i></a></li>
+  <div class="tags-sm">
+    
+      <li><a href="https://tekway.ir/tags/html" role="button">HTML </a></li>
+      
+    
+      <li><a href="https://tekway.ir/tags/%D8%A2%D9%85%D9%88%D8%B2%D8%B4" role="button">آموزش </a></li>
+      
+    
+      <li><a href="https://tekway.ir/tags/%DA%A9%D8%A7%D8%B1%DA%AF%D8%B1%D9%88%D9%87-%D8%B7%D8%B1%D8%A7%D8%AD%DB%8C-%D9%88%D8%A8" role="button">کارگروه طراحی وب </a></li>
+      
+    
+      <li><a href="https://tekway.ir/tags/%D8%B7%D8%B1%D8%A7%D8%AD%DB%8C-%D9%88%D8%A8" role="button">طراحی وب </a></li>
+      
+    
+  </div>
+</div>
+              </div>
+            
+            </div>
+            <div class="col-md-4">
+              <ul class="ul-x post-meta mb-5">
+                <li><a href="https://tekway.ir/tutorials"><i class="fas fa-long-arrow-alt-right pr-2"></i>صفحه‌ی قبلی</a></li>
+              </ul>
+            </div>
+          </div>
+          
+
+          
+          <div class="row pt-3">
+            <div class="col-md-6">
+              
+                <a href=https://tekway.ir/tutorials/2019-07/lesson-001/ class="post-meta">قبلی
+                  <div class="pt-2 pb-5 d-flex">
+                    <i class="fas fa-angle-left text-grey font-weight-bold mr-2 active-color"></i>
+                    <span>جلسه‌ی اول آموزش طراحی وب - HTML</span>
+                  </div>
+                </a>
+              
+            </div>
+            
+            <div class="col-md-6 text-right" >
+              
+            </div>
+          </div>
+
+          
+
+          <div
+    class="just-comments"
+    data-apikey="792be23c-c222-4bca-ac97-766ee1ebbe5c"
+    data-locale="fa"
+    data-disablesociallogin="false"
+    data-disableanonymouslogin="false"
+    data-disableloadmore="false"
+    data-disableprofilepictures="true"
+    data-disablesharebutton="false"
+    data-hideattribution="true"
+    data-enablewebsite="true"
+    data-hidecommentheader="false"
+    data-hidenocommentstext="false"
+    data-enableemailnotifications="true">
+</div>
+<script async src="https://just-comments.com/w2.js"></script>
+        </div>
+        
+
+      </div>
+      
+
+      
+	
+	
+	
+	
+		
+		
+		
+	
+
+		
+		<div class="col-md-2 pl-0">
+
+			
+			<div id="page-scrollspy" class="toc-nav">
+				
+				<ul class="nav nav-pills ml-0">
+					
+					<li class="nav-item pb-3 text-center">
+						<span class="font-weight-bold mb-2">- CATALOG - </span>
+					</li>
+
+					
+						
+						
+							
+								
+								
+									<ul class="nav">
+								
+								
+
+										<li class="nav-item">
+						 					<a class="nav-link" href="#%d8%af%d8%a7%d9%86%d9%84%d9%88%d8%af-%d8%a2%d9%85%d9%88%d8%b2%d8%b4-%d9%87%d8%a7">
+												 دانلود آموزش ها
+											</a>
+										</li>
+						 
+								
+								
+									</ul>
+								
+							
+						
+				 
+						
+						
+							
+								
+								
+									<ul class="nav">
+								
+								
+
+										<li class="nav-item">
+						 					<a class="nav-link" href="#%d8%a2%d9%85%d9%88%d8%b2%d8%b4-%d8%b0%d8%ae%db%8c%d8%b1%d9%87-%db%8c-%d8%b9%da%a9%d8%b3-%d8%af%d8%b1-%d9%81%d8%aa%d9%88%d8%b4%d8%a7%d9%be-%d8%a8%d8%b1%d8%a7%db%8c-%d9%88%d8%a8">
+												 آموزش ذخیره‌ی عکس در فتوشاپ برای وب
+											</a>
+										</li>
+						 
+								
+								
+									</ul>
+								
+							
+						
+				 
+
+				</ul>
+			</div>
+			
+
+		</div>
+		
+	
+
+    </div>
+    
+
+  </main>
+  
+
+
+    
+    
+
+<footer class="page-footer text-center font-small mt-4 wow fadeIn">
+
+
+  
+  <div class="pb-2 mt-5 pt-5">
+    
+      <a href="//github.com/alisouran " target="_blank" rel="noopener"><i class="fab fa-github mr-3" aria-hidden="true"></i></a>    
+    
+    
+      <a href="//linkedin.com/in/alisouran" target="_blank" rel="noopener"><i class="fab fa-linkedin-in mr-3" aria-hidden="true"></i></a>
+    
+
+    
+      <a href="//facebook.com/alirezasoran" target="_blank" rel="noopener"><i class="fab fa-facebook-f mr-3" aria-hidden="true"></i></a>
+    
+
+    
+
+    
+        <a href="//twitter.com/alisouran" target="_blank" rel="noopener"><i class="fab fa-twitter mr-3" aria-hidden="true"></i></a>
+    
+
+    
+        <a href="//instagram.com/alisouran" target="_blank" rel="noopener"><i class="fab fa-instagram mr-3" aria-hidden="true"></i></a>
+    
+
+    
+
+
+    
+        <a href="mailto:hi@alisouran.ir"><i class="far fa-envelope-open mr-3" aria-hidden="true"></i></a>
+    
+
+    
+
+    
+
+  </div>
+  
+
+  
+  <div class="copyright py-4">
+    
+    <span>  2016 - 2019 &copy; | قالب <a href='https://github.com/orianna-zzo/AllinOne' target="_blank">AllinOne</a> طراحی شده توسط <a href='https://github.com/orianna-zzo' target="_blank">Orianna</a> ترجمه و فارسی سازی شده توسط <a href='https://alisouran.ir' target="_blank">علی‌سوران</a> </span>
+  </div>
+  
+
+</footer>
+
+
+    
+
+
+
+
+
+
+<script type="text/javascript" src="https://tekway.ir/js/vendors/jquery/jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="https://tekway.ir/js/vendors/jquery/jquery.smooth-scroll.min.js"></script>
+
+
+
+<script type="text/javascript" src="https://tekway.ir/js/vendors/popper.min.js"></script>
+<script type="text/javascript" src="https://tekway.ir/js/vendors/holder.min.js"></script>
+<script type="text/javascript" src="https://tekway.ir/js/vendors-extensions/bootstrap4/bootstrap.js" ></script>
+
+<script type="text/javascript" src="https://tekway.ir/js/vendors/mdb/mdb.min.js"></script>
+
+<script type="text/javascript" src="https://tekway.ir/js/main.js"></script>
+
+
+
+  
+  <script src="https://tekway.ir/js/vendors/highlight.pack.js"> </script>
+  <script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+ 
+  <script src="https://tekway.ir/js/vendors/katex/katex.min.js"> </script>
+  <script src="https://tekway.ir/js/vendors/katex/contrib/auto-render.min.js"></script>
+
+  <script>
+      document.addEventListener("DOMContentLoaded", function () {
+          renderMathInElement(document.body);
+      });
+  </script>
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+  
+  new WOW().init();
+</script>
+
+
+
+
+  </body>
+</html>
