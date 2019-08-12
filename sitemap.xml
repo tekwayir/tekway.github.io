@@ -67,12 +67,6 @@
   </url>
   
   <url>
-    <loc>https://tekway.ir/tags/%DA%AF%DB%8C%D8%AA%D9%87%D8%A7%D8%A8/</loc>
-    <lastmod>2019-08-11T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://tekway.ir/categories/%DA%AF%DB%8C%D8%AA%D9%87%D8%A7%D8%A8/</loc>
     <lastmod>2019-08-11T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -80,6 +74,12 @@
   
   <url>
     <loc>https://tekway.ir/series/%DA%AF%DB%8C%D8%AA%D9%87%D8%A7%D8%A8/</loc>
+    <lastmod>2019-08-11T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://tekway.ir/tags/%DA%AF%DB%8C%D8%AA%D9%87%D8%A7%D8%A8/</loc>
     <lastmod>2019-08-11T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -114,13 +114,13 @@
   </url>
   
   <url>
-    <loc>https://tekway.ir/tags/%D8%B7%D8%B1%D8%A7%D8%AD%DB%8C-%D9%88%D8%A8/</loc>
+    <loc>https://tekway.ir/categories/%D8%B7%D8%B1%D8%A7%D8%AD%DB%8C-%D9%88%D8%A8/</loc>
     <lastmod>2019-08-09T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://tekway.ir/categories/%D8%B7%D8%B1%D8%A7%D8%AD%DB%8C-%D9%88%D8%A8/</loc>
+    <loc>https://tekway.ir/tags/%D8%B7%D8%B1%D8%A7%D8%AD%DB%8C-%D9%88%D8%A8/</loc>
     <lastmod>2019-08-09T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -161,13 +161,13 @@
   </url>
   
   <url>
-    <loc>https://tekway.ir/tags/%D9%81%D8%AA%D9%88%D8%B4%D8%A7%D9%BE/</loc>
+    <loc>https://tekway.ir/categories/%D9%81%D8%AA%D9%88%D8%B4%D8%A7%D9%BE/</loc>
     <lastmod>2019-08-07T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://tekway.ir/categories/%D9%81%D8%AA%D9%88%D8%B4%D8%A7%D9%BE/</loc>
+    <loc>https://tekway.ir/tags/%D9%81%D8%AA%D9%88%D8%B4%D8%A7%D9%BE/</loc>
     <lastmod>2019-08-07T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -200,13 +200,13 @@
   </url>
   
   <url>
-    <loc>https://tekway.ir/tags/%D8%A7%D9%88%D8%A8%D9%88%D9%86%D8%AA%D9%88/</loc>
+    <loc>https://tekway.ir/categories/%D8%A7%D9%88%D8%A8%D9%88%D9%86%D8%AA%D9%88/</loc>
     <lastmod>2019-07-11T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://tekway.ir/categories/%D8%A7%D9%88%D8%A8%D9%88%D9%86%D8%AA%D9%88/</loc>
+    <loc>https://tekway.ir/tags/%D8%A7%D9%88%D8%A8%D9%88%D9%86%D8%AA%D9%88/</loc>
     <lastmod>2019-07-11T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -218,13 +218,13 @@
   </url>
   
   <url>
-    <loc>https://tekway.ir/tags/%D9%84%DB%8C%D9%86%D9%88%DA%A9%D8%B3/</loc>
+    <loc>https://tekway.ir/categories/%D9%84%DB%8C%D9%86%D9%88%DA%A9%D8%B3/</loc>
     <lastmod>2019-07-11T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://tekway.ir/categories/%D9%84%DB%8C%D9%86%D9%88%DA%A9%D8%B3/</loc>
+    <loc>https://tekway.ir/tags/%D9%84%DB%8C%D9%86%D9%88%DA%A9%D8%B3/</loc>
     <lastmod>2019-07-11T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
