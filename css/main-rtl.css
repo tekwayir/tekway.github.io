@@ -11,6 +11,7 @@
     font-family: 'parastoo', serif !important;
 }
 h1,h2,h3,h4,h5,h6,p,a,b{
+    direction: rtl;
     font-family: 'parastoo', serif !important;
 }
 
@@ -175,4 +176,24 @@ font-weight: bold;
 
 .pagination .page-item.active .page-link{
     background-color: rgb(56, 132, 158) !important
+}
+.info {
+    padding: 20px;
+    background-color: #2196F3; /* Red */
+    color: white;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+.info_link{
+    color: #fff !important;
+}
+
+.pr-1, .px-1{
+    padding-right: 0% !important;
+    padding-left: .25rem !important;
+}
+
+div.col-md-6:nth-child(2) > a:nth-child(1){
+    float: left;
 }

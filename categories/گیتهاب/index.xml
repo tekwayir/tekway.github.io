@@ -6,10 +6,30 @@
     <description>Recent content in گیت‌هاب on تِکــ&#39;‌وِی سایت آموزش رایگان برنامه‌نویسی</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fa-IR</language>
-    <lastBuildDate>Sat, 27 Jul 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 11 Aug 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://tekway.ir/categories/%DA%AF%DB%8C%D8%AA%D9%87%D8%A7%D8%A8/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>آموزش ساخت اکانت گیت‌هاب</title>
+      <link>https://tekway.ir/blog/2019-08/%D8%A2%D9%85%D9%88%D8%B2%D8%B4-%D8%B3%D8%A7%D8%AE%D8%AA-%D8%A7%DA%A9%D8%A7%D9%86%D8%AA-%DA%AF%DB%8C%D8%AA%D9%87%D8%A7%D8%A8/</link>
+      <pubDate>Sun, 11 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://tekway.ir/blog/2019-08/%D8%A2%D9%85%D9%88%D8%B2%D8%B4-%D8%B3%D8%A7%D8%AE%D8%AA-%D8%A7%DA%A9%D8%A7%D9%86%D8%AA-%DA%AF%DB%8C%D8%AA%D9%87%D8%A7%D8%A8/</guid>
+      <description>&lt;p&gt;&lt;h3&gt;آموزش تصویری ساخت اکانت گیت‌هاب&lt;/h3&gt; &lt;br /&gt; &lt;h4&gt;با وجود تحریم‌های گیت‌هاب میتونیم اکانت گیت‌هاب بسازیم؟&lt;/h4&gt; &lt;br /&gt; &lt;p&gt;خب باید بگم که آره میتونید بسازید اما به یسری محدودیت‌ها مواجه هستید.&lt;/p&gt; &lt;h5&gt;خب این محدودیت‌ها چی هستن؟&lt;/h5&gt; &lt;p&gt;محدودیت‌هایی که گیت‌هاب برای ایرانی‌ها حتی ایرانیان خارج از کشور اعمال کرده باعث شده که ایرانیان نتونن از قابلیت‌های پولی گیت‌هاب مثل مخازن خصوصی استفاده کنند.&lt;/p&gt; &lt;p&gt;اما چطوری حالا چطوری یک اکانت گیت‌هاب بسازیم؟&lt;/p&gt; &lt;p&gt;با ما تو ادامه‌ی مطلب همراه باشید.&lt;/p&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>چطور یک گیت هاب پیج ایجاد کنیم؟</title>
+      <link>https://tekway.ir/blog/2019-08/%DA%86%D8%B7%D9%88%D8%B1-%DB%8C%DA%A9-%DA%AF%DB%8C%D8%AA-%D9%87%D8%A7%D8%A8-%D9%BE%DB%8C%D8%AC-%D8%A7%DB%8C%D8%AC%D8%A7%D8%AF-%DA%A9%D9%86%DB%8C%D9%85/</link>
+      <pubDate>Sun, 11 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://tekway.ir/blog/2019-08/%DA%86%D8%B7%D9%88%D8%B1-%DB%8C%DA%A9-%DA%AF%DB%8C%D8%AA-%D9%87%D8%A7%D8%A8-%D9%BE%DB%8C%D8%AC-%D8%A7%DB%8C%D8%AC%D8%A7%D8%AF-%DA%A9%D9%86%DB%8C%D9%85/</guid>
+      <description>&lt;p&gt;&lt;h3&gt;میزبانی از سایت خودمون روی گیت‌هاب پیج&lt;/h3&gt; &lt;br /&gt; &lt;h4&gt;چطوری میتونیم از صفحه‌ی استاتیک خودمون روی گیت‌هاب پیج میزبانی کنیم؟&lt;/h4&gt; &lt;br /&gt; &lt;p&gt;امروز توی سایت تک وی قصد دارم که طریقه‌ی میزبانی از یک سایت روی گیت‌هاب پیج رو آموزش بدم.&lt;/p&gt; &lt;h5&gt;اما گیت هاب پیج چیه اصلا؟&lt;/h5&gt; &lt;p&gt;یک سرویس میزبانی از سایت شما روی مخزن شخصی، سازمانی یا پروژه‌های شماست. این قابلیت گیت‌هاب خیلی برای ساخت وبلاگ‌ها و یا سایت‌هایی که صرفا برای معرفی جا یا شخصی هستن که نیاز به دیتابیس ندارن پرکاربرده.&lt;/p&gt; &lt;p&gt;اما چطوری یک گیت هاب پیج بسازیم و از سایت خودمون روی گیت هاب پیج میزبانی کنیم؟&lt;/p&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>با گیت‌هاب پیج‌هامون بعد از تحریم چه کنیم!؟</title>
@@ -17,11 +37,8 @@
       <pubDate>Sat, 27 Jul 2019 00:00:00 +0000</pubDate>
       
       <guid>https://tekway.ir/blog/2019-07/%D8%A8%D8%A7-%DA%AF%DB%8C%D8%AA%D9%87%D8%A7%D8%A8-%D9%BE%DB%8C%D8%AC%D9%87%D8%A7%D9%85%D9%88%D9%86-%D8%A8%D8%B9%D8%AF-%D8%A7%D8%B2-%D8%AA%D8%AD%D8%B1%DB%8C%D9%85-%DA%86%D9%87-%DA%A9%D9%86%DB%8C%D9%85/</guid>
-      <description>&lt;p&gt;امروز صبح بعد از چند وقت توی توییتر که رفتم دیدم همه‌جا خبر از تحریم ایرانی‌ها توسط گیت‌هاب (مایکروسافت)ـه!&lt;/p&gt;
-
-&lt;p&gt;اولین چیزی که توی ذهنم اومد وب‌سایت‌هایی بود که من روی گیت‌هاب پیج خودم داشتم پس دنبال راه‌حل گشتم برای این که بتونم از وب سایت خودم روی یه هاست رایگان دیگه میزبانی کنم!&lt;/p&gt;
-
-&lt;p&gt;خب به لطف تحریم‌های غیرقانونی امریکا خیلی از سرویس‌ها برای ما تحریم بود (مث گیت‌لب) و باید دنبال یه راه دیگه میگشتم.&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;h3&gt;ایجاد سایت بر روی SURGE&lt;/h3&gt; &lt;br /&gt; &lt;h4&gt;با تحریم‌های گیت‌هاب بر روی گیت‌هاب پیج‌ها چه کنیم؟!&lt;/h4&gt; &lt;br /&gt; &lt;p&gt;امروز تحریم‌های آمریکا روی گیت‌هاب هم اعمال شد و بسیاری از ایرانیان توسط مایکروسافت و گیت‌هاب تحریم شدند.&lt;/p&gt; &lt;p&gt;گیت‌هاب در این تحریم‌ها کاملا ایرانی‌تبارها رو تحریم کرد و فرقی نمیکرد که شما کجای دنیا زندگی میکنید.&lt;/p&gt; &lt;p&gt;اما تحریم‌ها چه بلایی سر حساب‌های گیت‌هاب آورده؟&lt;/p&gt;&lt;/p&gt;
+</description>
     </item>
     
   </channel>
